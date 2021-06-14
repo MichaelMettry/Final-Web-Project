@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form.css"/>
+    <link rel="stylesheet" href="navbar.f.css"/>
+    <script type="text/javascript" src="form.js"></script>
+
+    <script>
+        function validate(){
+            var valid = false;
+            vax x = document.formjs.rdiobtn;
+            
+            for (var i = 0;i<x.length;i++){
+                if(x[i].checked){
+                    valid = true;
+                    break;
+                }
+            }
+            if(!(valid)){
+                alert("Please Select your Gender"); 
+                return false;
+        }
+    }
+    </script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+</head>
+<body>
+    <div class="background">
+        <div class="parent">
+    
+            <div class="topic">
+                <h2>It's all about SPORTS</h2>
+            </div>
+    
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="table.html">Table</a></li>
+                    <li><a href="ImgGallery.html">ImgGallery</a></li>
+                    <li><a href="dropdown.html">DropDown</a></li>
+                    <li><a href="form.html">Register Now</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="regform">
+            <h1 class="title">Registration Form</h1>
+    </div>
+    <div class="main">
+        
+            <form method="GET" id="formjs">
+
+                <div id="name">
+                 <div>   <h2 class="name">Name </h2> </div>
+                    <div>
+                        <div><label class="ftlabel">First Name</label> </div>
+                        <div>  <input class="firstname" type="text" name="name" id="custname" placeholder="Your name.."> </div>
+        
+                    </div>
+
+                    <div>
+                   <div> <label class="ltlabel">Last Name</label> </div>
+                  <div>  <input class="lastname" type="text" name="name" id="custname" placeholder="Your Last name.."></div>
+                    </div>
+
+                </div>
+                <br>
+                <hr>
+        
+                <div>
+               <div> <h2 class="name">Address</h2> </div>
+                <div> <label class="ltlabel">Address</label> </div>
+                <div> <input class="address" type="text" name="Address" placeholder="Enter Your Address.."> </div>
+                </div>
+                <br>
+                <hr>
+     
+                <div>
+                <h2 class="name">Email</h2>
+                <div> <label class="ltlabel">Email</label> </div>
+                <div> <input class="email" type="email" name="email" id="email" formnovalidate="formnovalidate" placeholder="Enter Your Email.."> </div>
+                 </div>
+                 <br>
+                 <hr>
+            
+
+                 <div>
+                    <div> <h2 class="name">Password</h2> </div>
+                    <div<label class="ltlabel">Password</label> </div>
+                   <div><input class="number" type="text" name="password" id="password" placeholder="Enter Your password.."> </div>
+                       <div>
+                 <br>
+                 <hr>
+            
+
+                <div>
+             <div> <h2 class="name">Phone</h2> </div>
+             <div<label class="ltlabel">Phone Number</label> </div>
+            <div><input class="number" type="text" name="phone" id="telephone" placeholder="Enter Your phone-number.."> </div>
+                <div>
+
+                <br>
+                 <hr>
+                 
+              <div>  <h2 class="name">Select a Sport</h2> </div>
+              <div<label class="ltlabel">Favorite Sport</label> </div>
+              <div> <select class="option" name="subject">
+                    <option  selected="selected">Football</option>
+                    <option>Basketball</option>
+                    <option>Volleyball</option>
+                    <option>Handball</option>
+                    <option>Tennis</option>
+                    <option>Running</option>
+                    <option>Karate</option>
+                    <option>Judo</option>
+                    <option>Boxing</option>
+                    <option>Swimming</option>
+                    <option>Other</option>
+                </select>
+              </div>
+                <br>
+                 <hr>
+
+            <div><h2 class="name" style="text-align:left">Select Your Gender</h2> </div>
+          <div>  <label class="radio">
+                <input class="radio-one" type="radio"  name="rdiobtn" id="gender" required>
+                <span class="checkmark"></span>
+               <span class="gender"> Male </span>
+            </label>
+    
+            <label class="radio">
+                <input class="radio-two" type="radio" name="rdiobtn" id="gender" required>
+                <span class="checkmark"></span>
+                <span class="gender">Female </span>
+            </label>
+            <div>
+
+            <br>
+            <hr>
+                <div> <button type="reset" class="button1">ClearAll</button> </div>
+              <div> <button type="submit" class="button1">Register </button> </div>
+              <hr>
+            </form>
+    </div>
+</body>
+</html>

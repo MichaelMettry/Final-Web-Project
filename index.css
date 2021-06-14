@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+html, body{
+    height:100%;
+    margin: 0;
+}
+
+.background {
+        background-image: url("sports27.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width:100%;
+}
+
+img {
+    float:right;
+    margin: 12px 40px;
+    height: 35%;
+    width: 35%;
+    border: 2px solid green;
+    border-radius: 15px;
+
+}
+.paragraph {
+    font-size: x-large;
+    font-weight:900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.8;
+    text-shadow: 2px 2px 5px palevioletred;
+    
+   
+}
+.parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-content: space-around;
+  
+}
+
+.parent .topic {
+    margin-left:5%; 
+    color:indigo;
+    font-size:larger;
+    text-shadow: 2px 2px 5px deepskyblue;
+}
+
+
+.navbar li {
+    display: inline-block;
+    padding: 10px 0px;
+    margin: 0px 20px;
+    border-bottom: 2px solid transparent;
+    font-weight:900;
+    margin-top: 2%;
+    font-size: x-large;
+    text-shadow: 2px 2px 3px springgreen;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li a.active {
+    color:firebrick;
+    border-bottom: 2px solid firebrick ;
+    text-shadow: 2px 2px 3px violet;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:darkgreen;
+    
+
+}
+
+.navbar a:hover {
+    color:royalblue;
+    border-bottom: 2px solid royalblue;
+    text-shadow: 2px 2px 3px royalblue;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .background {
+        background-image: url("sport23.jpg");
+        height: max-content;
+}
+    .paragraph {
+        font-size: x-small;
+        text-shadow: 1px 1px 2px palevioletred;
+    }
+    .parent {
+        flex-direction: column;
+        justify-content:center;
+        align-content: center;
+
+    }
+    .parent .topic {
+        margin:0;
+        font-size: x-small;
+        text-shadow: 1px 1px 2px deepskyblue;
+}
+
+.navbar li {
+    display: block;
+    padding: 5px 0px;
+    margin: 0px 10px;
+    border-bottom: 1px solid transparent;
+    font-weight:normal;
+    margin-top: 2%;
+    font-size: small;
+    text-shadow: 1px 1px 2px springgreen;
+}
+
+    }
+    

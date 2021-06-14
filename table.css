@@ -1,0 +1,123 @@
+* {
+  font-family: sans-serif; 
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  overflow-x:auto;
+  overflow-y:auto;
+}
+
+.content-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:nth-of-type(odd) {
+  background-color: #f3f3f3;
+  font-size: large;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+  font-size: large;
+}
+
+td .rank {
+  color: #009879;
+  background-color: #f3f3f3;
+  text-align: left;
+  font-weight:900;
+  font-size: x-large;
+}
+
+
+
+
+.alltable {
+    overflow-x:auto;
+    overflow-y: auto;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    padding:15px;
+   overflow-x:auto;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 15px;
+    font-size: large;
+    font-weight: 900;
+    
+  }
+  .navbar ul li a {
+      
+      text-shadow: 2px 2px 3px springgreen;
+  }
+
+  tr:nth-child(even) , .alltable  table   tr:nth-child(even) td a{
+      background-color:violet;
+      color:white;
+      text-shadow: 2px 2px 5px white;
+    }
+    .alltable  table  tr td a {
+        text-decoration: none;
+    }
+
+    
+ .alltable tr:nth-child(odd) , .alltable  table tr:nth-child(odd) td a {
+      background-color:turquoise;
+      color:black;
+      text-shadow: 2px 2px 10px black;
+    }
+    .alltable th {
+        background-color:darkslategrey;
+        color: white;
+        text-shadow: 2px 2px 5px black;
+      }
+
+    @media only screen and (max-width: 768px) {
+        table {
+            padding:5px;
+          }
+          th, td {
+            text-align: left;
+            padding: 5px;
+            font-size: small;
+            font-weight: 200;
+          }
+        
+}
+
+
+

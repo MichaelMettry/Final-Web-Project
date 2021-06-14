@@ -1,0 +1,194 @@
+body{
+         
+  background-image: url(sports27.png);
+  margin-top:40px;
+  background-position:center;
+ background-size:cover;
+ font-family:sans-serif;
+  }
+  .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  *{
+    box-sizing: border-box;
+    }
+
+    html, body{
+        height:100%;
+        margin: 0;
+    }
+  
+   body{
+         
+      background-image: url(sports27.png);
+      margin-top:40px;
+      background-position:center;
+     background-size:cover;
+     font-family:sans-serif;
+     
+      }
+     
+     .satform{
+      width:65%;
+      background-color:tomato;
+      margin:auto;
+      color:#FFFFFF;
+      padding:10px 0px 10px 0px;
+      text-align:center;
+      border-radius:15px 15px 0px 0px ;
+      }  
+    .main{
+        background-color:darkturquoise;
+        width:65%;
+        margin:auto;}
+    
+    form{
+        padding:10px;
+     
+    } 
+  
+   strong{
+            text-align: center;
+             width: 100%;
+            color: white;
+             font-size: x-large;
+             font-weight: 700;
+             font-style: italic;
+            }
+  /** radio **/
+  .choose {
+    display: inline-block;
+
+    width: 100%;
+  }
+  input[type=radio]{
+    position:relative;
+    width: 5%;
+    height:28px;
+    border-radius: 6px;
+   padding: 0 22px;
+   font-size: 16px;
+   color: #555; 
+   outline:none;
+   margin-top: 2%;
+   
+}    
+
+  
+label{
+ display:inline-block;
+    padding-right:70px;
+    font-size:25px;
+    margin-left:3%;
+    margin-top:3%;
+    color:white;
+}
+.radio input{
+      width:40%;
+    height:20px;
+    border-radius:50%;
+    cursor:pointer;
+} 
+
+  button {
+      background-color:hotpink;
+   display:block;
+   margin:5% 25% 5% 30%;
+   text-align:center;
+   border-radius:12px;
+   border:2px solid #366473;
+   padding:2% 10%;
+   outline:none;
+   color:white;
+  } 
+ button:hover{
+            background-color:#5390F5;
+    }  
+    
+    .button1 {
+        font-size:x-large;
+        
+    }
+
+
+    @media only screen and (max-width: 768px) {
+      
+
+        strong{
+          font-size: 20px;
+          font-weight: 200;
+         }
+
+         .button1 {
+          font-size: small;
+          margin:0;
+          width: 100%;
+
+      }
+
+      input[type=radio]{
+        position:relative;
+        height:28px;
+        border-radius: 6px;
+       font-size: 15px;
+       color: #555; 
+       outline:none;
+
+ 
+       margin-top: 
+    }    
+    label{
+
+         font-size:17px;
+         color:white;
+        
+     }
+     .media {
+       display: inline-block;
+       
+     }
+      .media input[type=radio]{
+      position:relative;
+      height:28px;
+      border-radius: 6px;
+     font-size: 15px;
+     color: #555; 
+     outline:none;
+     width:23%;
+     }
+        }

@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+    }
+
+    html, body{
+        height:100%;
+        margin: 0;
+    }
+  
+   body{
+         
+      background-image: url(sports27.png);
+      margin-top:40px;
+      background-position:center;
+     background-size:cover;
+     font-family:sans-serif;
+      }
+     
+     .regform{
+      width:65%;
+      background-color:tomato;
+      margin:auto;
+      color:#FFFFFF;
+      padding:10px 0px 10px 0px;
+      text-align:center;
+      border-radius:15px 15px 0px 0px ;
+      }  
+    .main{
+        background-color:darkturquoise;
+        width:65%;
+        margin:auto;}
+    
+    form{
+        padding:10px;
+     
+    } 
+    
+    #name{
+        width:100%;
+        
+      
+      }  
+    .name{
+            text-align: center;
+             width: 100%;
+            color: white;
+             font-size: x-large;
+             font-weight: 700;
+            }
+
+
+  .firstname{
+        position: relative;
+         line-height: 40px;
+         border-radius: 6px;
+         padding: 0 22px;
+         font-size: 16px;
+        width: 65%;
+         
+         }
+  .lastname{
+               position: relative;
+    
+               width: 65%;
+         line-height: 40px;
+         border-radius: 6px;
+         padding: 0 22px;
+         font-size: 16px;
+         color:#555;       
+                    }  
+   .ftlabel{
+              position:relative;
+              color:#f0e9e9;    
+             margin-left: 2%;
+             font-size: 16px;
+     }   
+  .ltlabel{
+              position:relative;
+     color:#f0e9e9;
+     font-size:16px;
+     margin-left: 2%;
+
+
+       } 
+  .address{
+        position:relative;
+       line-height: 40px;
+       width:100%;
+        border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       color: #555; 
+     }
+
+
+
+   .email{
+          position:relative;
+       line-height: 40px;
+       width:75%;
+          border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       color: #555;  
+      }     
+   
+     .Code{
+           position:relative;
+    left:200px;
+       top:-37px;
+       line-height: 40px;
+       width:95px;
+          border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       color: #555;  
+    }
+   .number{
+           position:relative;
+
+
+       line-height: 40px;
+       width:50%;
+          border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       color: #555; 
+       }
+
+   .phone-number{
+        position:relative;
+        color:#E5E5E5;
+        font-size:16px;
+        outline:none;
+       }
+
+   .option{
+        position:relative;
+        width:50%;
+       height:40px;
+        border-radius: 6px;
+       padding: 0 22px;
+       font-size: 16px;
+       color: #555; 
+       outline:none;
+       margin-top: 2%;
+    }    
+       .option option{
+                   font-size:90%;
+         }
+         
+    .radio{
+     display:inline-block;
+        padding-right:70px;
+        font-size:25px;
+        margin-left:3%;
+        margin-top:3%;
+        color:white;
+    }
+    .radio input{
+          width:40%;
+        height:20px;
+        border-radius:50%;
+        cursor:pointer;
+    } 
+
+      button {
+          background-color:hotpink;
+       display:block;
+       margin:5% 25% 5% 30%;
+       text-align:center;
+       border-radius:12px;
+       border:2px solid #366473;
+       padding:2% 10%;
+       outline:none;
+       color:white;
+      } 
+     button:hover{
+                background-color:#5390F5;
+        }  
+        
+        .button1 {
+            font-size:x-large;
+            
+        }
+       
+
+          @media only screen and (max-width: 768px) {
+            * {
+                width: 100%;
+                margin-top: 0;
+              }
+            
+            .title {
+                font-size: 20px;
+            }
+
+            .name{
+                 font-size: 20px;
+                 font-weight: 200;
+                }
+
+               .button1 {
+                    font-size: small;
+                    margin:0;
+
+                }
+
+                .gender {
+                    font-size: 20px;
+                }
+
+               
+            }
+
+          
+          
+
